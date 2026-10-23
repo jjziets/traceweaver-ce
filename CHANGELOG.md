@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.2.0](https://github.com/jjziets/traceweaver-ce/compare/cli-v3.1.0...cli-v3.2.0) (2026-10-23)
+
+
+### Features
+
+* **ce-ideate:** subject gate, surprise-me, and warrant contract ([#671](https://github.com/jjziets/traceweaver-ce/issues/671)) ([6514b1f](https://github.com/jjziets/traceweaver-ce/commit/6514b1fce5df62582673fe7274c97a90e9aea45c))
+* **ce-setup:** check for ast-grep CLI and agent skill ([#653](https://github.com/jjziets/traceweaver-ce/issues/653)) ([23dc11b](https://github.com/jjziets/traceweaver-ce/commit/23dc11b95ae46dc6be0308306de5c8f16329fe49))
+* **pi:** first-class support via pi-subagents + pi-ask-user ([#651](https://github.com/jjziets/traceweaver-ce/issues/651)) ([7ddfbed](https://github.com/jjziets/traceweaver-ce/commit/7ddfbed33b08e5ad0dc56a3ecc19adb9a10ebb2c))
+
+
+### Bug Fixes
+
+* **ce-debug:** delegate commit/PR and add branch check ([#683](https://github.com/jjziets/traceweaver-ce/issues/683)) ([1284290](https://github.com/jjziets/traceweaver-ce/commit/1284290af27139c2df192488099626688fd4898b))
+* **ce-update:** compare against main plugin.json, not release tags ([#660](https://github.com/jjziets/traceweaver-ce/issues/660)) ([351d12e](https://github.com/jjziets/traceweaver-ce/commit/351d12ec5b795bff4c5e633e9a64644f045340c6))
+* **ce-update:** derive cache dir from CLAUDE_PLUGIN_ROOT parent ([#645](https://github.com/jjziets/traceweaver-ce/issues/645)) ([6155b9d](https://github.com/jjziets/traceweaver-ce/commit/6155b9de3c2d60ca424386f2dfcb0dfa7668f2c1))
+* **lfg:** use platform-neutral skill references ([#642](https://github.com/jjziets/traceweaver-ce/issues/642)) ([b104ce4](https://github.com/jjziets/traceweaver-ce/commit/b104ce46bea4b1b9b0e9cfbdd9203dbc5a0aa510))
+* **main:** recover version drift, fix stale test, document learnings ([#678](https://github.com/jjziets/traceweaver-ce/issues/678)) ([bc8ae1a](https://github.com/jjziets/traceweaver-ce/commit/bc8ae1a6b5375f7fbb8120104b3222391da470bb))
+* **release:** remove stale release-as pin ([#674](https://github.com/jjziets/traceweaver-ce/issues/674)) ([ab44d89](https://github.com/jjziets/traceweaver-ce/commit/ab44d89b0b2b1f7dd57d9ce1604d42b0c11f6415))
+* **skills:** cap skill descriptions at harness limit ([#643](https://github.com/jjziets/traceweaver-ce/issues/643)) ([13f95ba](https://github.com/jjziets/traceweaver-ce/commit/13f95ba6392f86aa8dd9b4430b84f0b7523c6c89))
+
 ## [3.1.0](https://github.com/EveryInc/compound-engineering-plugin/compare/cli-v3.0.7...cli-v3.1.0) (2026-04-24)
 
 
