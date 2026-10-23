@@ -89,7 +89,7 @@ jobs:
       - name: Setup Node.js for release
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "24.22.1"
           registry-url: https://registry.npmjs.org
 
       - name: Publish package
